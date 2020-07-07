@@ -1,0 +1,394 @@
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+body{
+  font-family: sans-serif;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Orbitron', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+  letter-spacing: .08rem;
+  color: #127681;
+  margin-top: 0;
+
+}
+
+h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #3c4245;
+  padding-top: 5.5rem;
+  letter-spacing: .08rem;
+
+}
+
+h3{
+  font-family: 'Ubuntu', sans-serif;
+  color: #3c4245;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: .08rem;
+  margin-top: 0;
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.8rem;
+  max-width: 90%;
+  margin: auto;
+  color: #757575;
+  padding-bottom: 1.4rem;
+}
+
+
+img{
+  max-width: 90%;
+  margin-top: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+header{
+    background-color: #f6f6f6;
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
+
+.container{
+  width: 90%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: auto;
+
+}
+
+.name{
+  margin-top: 0;
+}
+
+.main-nav{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 3rem;
+
+}
+.main-nav li{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: .8rem;
+  background-color: white;
+  width: 90%;
+  border: 0;
+  margin: auto;
+  margin-bottom: 5px;
+  color: #3c4245;
+
+}
+
+.main-nav a{
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: .3rem;
+  width: 100%;
+
+}
+
+.main-nav a:visited{
+  color: #3c4245;
+}
+
+.main-nav a:hover{
+  color: lightgrey;
+}
+
+.banner p{
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+}
+.banner img{
+  margin-top: 15px;
+
+}
+
+.col{
+  margin-bottom: 1rem;
+
+}
+
+.col img{
+  box-shadow: 0 10px 25px grey;
+}
+
+.col h3{
+  padding-top: 1rem;
+}
+
+.col p{
+  font-size: 1.5rem;
+  max-width: 90%;
+}
+
+hr{
+  color: lightgrey;
+  width: 50%;
+
+}
+
+footer{
+   background-image: linear-gradient(to bottom, white, lightgrey);
+
+}
+
+.container-bottom{
+  margin-left: 0;
+  margin-bottom: 0;
+  margin: auto;
+
+}
+
+#contact-title{
+  margin-top: 0;
+
+}
+
+
+.contact-nav{
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.contact-nav li{
+  list-style-type: none;
+  padding-bottom: 2rem;
+
+}
+
+.contact-dest{
+  font-size: 1.4rem;
+  color: #757575;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.contact-dest a{
+  color: #3c4245;
+  padding-left: 20px;
+}
+
+.contact-dest a:hover{
+  color: grey;
+
+}
+
+.back-to-top{
+  display: inline-block;
+  width: 100%;
+
+}
+
+#back-to-rule{
+  width: 90%;
+
+}
+
+#contact{
+  padding-bottom: 15px;
+}
+
+.lower-nav{
+  display: none;
+
+}
+
+.lower-nav a:hover{
+  color: lightgrey;
+
+}
+
+.lower-nav a:visited{
+  color: #3c4245;
+
+}
+
+.lower-name{
+  font-family: 'Orbitron', sans-serif;
+  color: #127681;
+  font-size: 1.2rem;
+  float: left;
+  margin-left: 5%;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+
+#back-to{
+  display: inline-block;
+  float: right;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 5%;
+  color: #3c4245;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+#back-to a{
+  text-decoration: none;
+
+}
+
+#back-to a:visited{
+  color: #3c4245;
+}
+
+#back-to a:hover{
+  color: grey;
+}
+
+/*--------- media queries --------*/
+
+@media (min-width: 789px) {
+
+
+  .clearfix::after{
+   content: "";
+   clear: both;
+   display: table;
+  }
+
+  .main-nav li{
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 0;
+    width: 15%;
+    background-color: #f6f6f6;
+
+  }
+
+  .main-nav a,
+  .lower-nav a{
+    font-size: 1.2rem;
+    background-color: #f6f6f6;
+
+  }
+
+  .banner img{
+    float: right;
+    margin-right: 5%;
+    margin-top: 0;
+
+  }
+
+  .banner p{
+    font-size: 1.6rem;
+    margin-left: 5%;
+    padding: 0;
+    margin-top: 3%;
+    float: left;
+    width: 60%;
+  }
+
+
+  .col{
+    max-width: 50%;
+    float: left;
+    align-items: center;
+  }
+
+  #contact{
+    padding-bottom: 0;
+  }
+
+  #contact-p{
+    width: 60%;
+
+  }
+
+  .lower-name{
+    padding-top: 16px;
+  }
+
+  .lower-nav{
+    display: inline-block;
+    float:right;
+    margin-right: 5%;
+  }
+
+  .lower-nav li{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: transparent;
+  }
+
+  .lower-nav a{
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  #back-to{
+    display:none;
+  }
+
+
+}
+
+@media (min-width: 1025px) {
+  .col{
+    max-width: 33.3%;
+    float: left;
+    align-items: center;
+  }
+
+  .container{
+    display: inline-block;
+  }
+
+  .name{
+    padding-top: 0;
+    float:left;
+
+  }
+
+  .main-nav,
+  .lower-nav{
+    float: right;
+    padding: 0;
+
+
+  }
+
+  .main-nav li,
+  .lower-nav li{
+    margin-right: 45px;
+    margin-left: 45px;
+    font-size: 1rem;
+  }
+
+  .lower-nav{
+    margin-left: 0;
+  }
+
+  .body-container{
+    max-width: 1215px;
+    margin: auto;
+  }
+
+}
